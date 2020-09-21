@@ -7,5 +7,5 @@ services:
       dockerfile: Dockerfile
     volumes:
       - type: bind
-        source: ${PWD}/vim-home
-        target: /root/.vim
+        source: ${PWD}/vimrc
+        target: /root/.vim/vimrc

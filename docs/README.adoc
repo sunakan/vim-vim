@@ -38,3 +38,5 @@ include::./block.adoc[]
 include::./note.adoc[]
 
 include::./list.adoc[]
+
+include::./vim.adoc[]
