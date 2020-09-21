@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  app:
+    image: sunakan/vim
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - type: bind
+        source: ${PWD}/vim-home
+        target: /root/.vim
